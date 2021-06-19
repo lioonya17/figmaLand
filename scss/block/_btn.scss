@@ -1,0 +1,31 @@
+.btn {
+    &__medium {
+        border-radius: 35px;
+        outline: none;
+        padding: 16px 58px;
+
+        &-b {
+            @include button-text-b;
+        }
+        &-w {
+            @include button-text-w;
+        }
+    }
+
+    &__big {
+        max-width: 350px;
+        width: 100%;
+        padding: 17px 140px;
+        color: $white;
+        background-color: $primary;
+        border-radius: 35px;
+        @include button-text-wp;
+    }
+
+    &__form {
+        margin-left: 14px;
+        border-radius: 35px;
+        padding: 20px 40px;
+        @include button-text-p;
+    }
+}

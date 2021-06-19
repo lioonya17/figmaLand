@@ -1,0 +1,82 @@
+.board {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    box-shadow: 0 13px 10px rgba(0,0,0, .07);
+    padding: 40px;
+    width: 33.33%;
+    @media (max-width: 425px) {
+        width: 100%;
+    }
+
+    &__rate {
+        font-size: 22px;
+        font-weight: 700;
+        color: $text;
+        line-height: 33px;
+    }
+
+    &__text {
+        font-size: 12px;
+        font-weight: 700;
+        color: $second-text;
+
+        margin-bottom: 30px;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    &__value {
+        margin-right: 10px;
+        font-size: 55px;
+        font-weight: 900;
+        color: $text;
+    }
+
+    &__valute {
+        font-size: 22px;
+        font-weight: 700;
+        color: $text;
+    }   
+
+    &__subvalute {
+        font-weight: 700;
+        font-size: 12px;
+        color: $second-text;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn {
+        width: 100%;
+        text-align: center;
+        padding: 18px 0;
+        background-color: $secondary-b;
+        border-radius: 35px;
+        color: $white;
+
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.board.active {
+    background: $gradient;
+
+    .board__rate, .board__text,
+    .board__value, .board__valute,
+    .board__subvalute {
+        color: $white;
+    }
+
+    .board__btn {
+        background-color: $white;
+        color: $primary;
+    }
+}

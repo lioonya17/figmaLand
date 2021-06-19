@@ -1,0 +1,30 @@
+.item {
+    margin: 0 26px;
+
+    @media (max-width: 425px) {
+        margin: 0 0 90px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__ico {
+        margin-right: 10px;
+    }
+
+    &__title {
+        font-weight: 700;
+        line-height: 33px;
+        font-size: 22px;
+        color: $text;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 27px;
+        color: $second-text;
+    }
+}

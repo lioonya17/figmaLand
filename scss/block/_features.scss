@@ -1,0 +1,32 @@
+.features {
+    margin-top: 100px;
+    @media (max-width: 425px) {
+        margin-top: 60px;
+    }
+
+    &__header {
+        margin-bottom: 100px;
+        @media (max-width: 425px) {
+            margin-bottom: 90px;
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 17px;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+
+        @media (max-width: 425px) {
+            display: block;
+            max-width: 270px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}

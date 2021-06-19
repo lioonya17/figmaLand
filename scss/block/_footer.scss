@@ -1,0 +1,49 @@
+.footer {
+    padding: 120px 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 425px) {
+        display: block;
+        padding: 130px 20px;
+    }
+
+    &__left {
+        @media (max-width: 425px) {
+            text-align: center;
+            margin-bottom: 65px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 17px;
+        color: $text;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    &__author {
+        padding: 13px 0;
+        color: $text;
+        font-size: 15px;
+    }
+
+    &__right {
+        display: flex;
+        @media (max-width: 425px) {
+            display: block;
+        }
+    }
+
+    &__map {
+        margin-right: 55px;
+        display: block;
+        width: 100%;
+        height: auto;
+        @media (max-width: 425px) {
+            margin-bottom: 65px;
+        }
+    }
+}

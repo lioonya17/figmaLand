@@ -1,0 +1,29 @@
+.card {
+    height: 100%;
+    margin: 0 26px;
+    @media (max-width: 425px) {
+        margin: 50px 0;
+    }
+
+    &__title {
+        text-align: center;
+
+        color: $second-text;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    &__image {
+        margin: 25px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        text-align: center;
+        color: $second-text;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+}

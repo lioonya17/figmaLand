@@ -1,0 +1,48 @@
+.partners {
+    margin-top: 90px;
+
+    &__header {
+        margin-bottom: 90px;
+        @media (max-width: 425px) {
+            margin-bottom: 120px;
+        }
+    }
+
+    &__row {
+        display: flex;
+        margin-bottom: 90px;
+        @media (max-width: 425px) {
+            display: block;
+        }
+    }
+
+    &__body {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        @media (max-width: 425px) {
+            margin-bottom: 110px;
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__card {
+        width: 33%;
+        @media (max-width: 425px) {
+            width: 100%;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 190px;
+        @media (max-width: 425px) {
+            margin-bottom: 170px;
+        }
+    }
+}

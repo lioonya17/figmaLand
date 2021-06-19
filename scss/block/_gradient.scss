@@ -1,0 +1,36 @@
+.gradient {
+    padding-top: 80px;
+    background: $gradient;
+
+    &__header {
+        padding-bottom: 65px;
+    }
+
+    &__subtitle {
+        padding-bottom: 17px;
+        color: $white;
+    }
+
+    &__title {
+        color: $white;
+    }
+
+    &__body {
+        padding-bottom: 34px;
+    }
+
+    &__text {
+        color: $white;
+    }
+    
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 104px;
+    }
+
+    &__input {
+        margin-bottom: 12px;
+    }
+}

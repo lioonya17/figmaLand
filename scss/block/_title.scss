@@ -1,0 +1,16 @@
+.title {
+    @include title-h2;
+
+    &-nt {
+        margin-bottom: 0;
+    }
+}
+
+.subtitle {
+    @include subtitle;
+}
+
+.text {
+    @include text;
+
+}

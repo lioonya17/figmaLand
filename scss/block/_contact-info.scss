@@ -1,0 +1,41 @@
+.contact-info {
+
+    &-footer {
+        width: 55%;
+        @media (max-width: 425px) {
+            padding: 0 50px;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    &__street, &__mobile, &__email {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &__ico {
+        margin-right: 20px;
+    }
+
+    &__text {
+        text-align-last: left;
+        font-size: 12px;
+        font-weight: 700;
+        color: $white;
+        line-height: 18px;
+
+        &-bl {
+            color: $second-text;
+        }
+    }
+
+    &__social {
+        margin-top: 65px;
+    }
+
+    &__link {
+        margin: 0 13.5px;
+    }
+}
